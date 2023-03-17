@@ -1,0 +1,63 @@
+.divContenedor{
+
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+   
+  
+ 
+}
+
+
+.divCardDetail{
+ 
+    color: ivory;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    margin: 6% 10% 10% 8%;
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 6px 5px 18px 9px rgba(0,0,0,0.56);
+    
+}
+
+.divContenedor:hover
+.imageDetail{
+    height: 350px;
+    width: 350px;
+    margin: 4% 2% 10% 17%;
+    border: 8px solid rgb(11, 90, 4);
+    border-radius: 7%;
+}
+
+.imageDetail{
+    height: 0px;
+    width: 0px;
+    
+    margin: 30% 35% 10% 0%;
+    background-color: indigo;
+    border-radius: 60%;
+    border: 0px solid rgb(11, 90, 4);
+    transition: .9s;
+}
+
+.naveEspacial{
+    display: flex;
+    margin: 5% 0% 0% 30%;
+    width: 120px;
+    height: auto;
+    /* animation-name: movimientoLateral;
+    animation-duration: 1s; */
+}
+
+/* @keyframes movimientoLateral{
+    0%{
+        transform: translateX(0%);
+    }
+    110%{
+        transform: translateX(100%);
+    }
+}    */

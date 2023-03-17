@@ -1,0 +1,49 @@
+
+
+.navDiv2{
+
+    width: 30%;
+    display: flex;
+    flex-direction: row;  
+    align-self: center;
+    transition: .5s;
+    justify-content: end;
+    height: 50px;
+
+}
+
+
+.searchBar{
+
+    margin: 1% 0%;
+    border: 0px;
+    border-radius: .7em 0em 0em .7em;
+    font-size: 20px;
+    transition: .5s;
+    width: 50%;
+    
+}
+
+.searchBar:hover{
+  width:  80%;
+}
+
+.searchBar:hover,
+.searchBar:hover + .buttonAdd{
+    box-shadow: 14px 12px 19px 7px rgba(0,0,0,0.58);
+
+}
+
+.buttonAdd{
+    margin: 1% 1.5% 1% 0%;
+    border: 0px;
+    border-radius: 0em .7em .7em 0em;
+    font-size: 20px;
+   transition: .5s;
+
+}
+
+.buttonAdd:hover{
+    cursor: pointer;
+}
+

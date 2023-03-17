@@ -1,0 +1,12 @@
+.divCards{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    margin: 10% 10% 10% 8%;
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 6px 5px 18px 9px rgba(0,0,0,0.56);
+}

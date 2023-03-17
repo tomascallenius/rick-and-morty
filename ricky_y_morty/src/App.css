@@ -1,0 +1,9 @@
+.hr{
+    border: none;
+    background-color: rgb(149, 149, 149);
+    padding: .3%;
+}
+
+a{
+    text-decoration: none;
+}
